@@ -1,0 +1,120 @@
+
+/* body {background-image:irl(..kuvat/tausta.jpg);
+/* kommentti */
+body {
+  color:rgb(12, 13, 14);  /*tekstin väri */
+    background-color: rgb(250, 245, 245); /* taustaväri */
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 0; /*reunuksen ja sisällön välissä */
+    width: 100%; /* leveys*/
+    /*max-width: 1400px; /*maksimileveys */
+    margin: auto;
+  }
+    
+
+header {
+  position: relative; /* keep positioning context */
+  padding: 10px; 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}   
+
+.mainlogo {
+  width: 15%;
+  float: left;
+}
+
+#logo {
+  width: 100%; /* logo width */
+  height: auto; /* Maintain aspect ratio */
+  top: 0;
+  left: 0;
+  display: flex;
+  position: absolute;
+   max-width: 250px;
+   text-align: left;
+}
+
+.headertext {
+  width: 70%;
+ 
+  /* float: left; */
+
+}
+
+h1 
+    {font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    letter-spacing: 70px;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    /* flex: 1; */
+    width: 100%; 
+    
+  }
+
+  .links {
+    width: 15%;
+    float: right;
+    
+  }
+
+  .plinks {
+    width: 100%; 
+    height: auto; 
+    top: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+     max-width: 250px;
+     text-align: right;
+     padding-right: 100px;
+  }
+
+h2 {
+  font-family: "Condiment", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+p {
+  font-size: 18px;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto; /*center align*/
+text-align: center;
+
+
+}
+
+footer { position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+
+}
